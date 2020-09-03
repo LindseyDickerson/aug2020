@@ -1,0 +1,153 @@
+/* Navbar/Jumbotron */
+.navbar {
+    background-color: black;
+}
+
+ a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.jumbotron-fluid {
+    background-color: black;
+    height: 35vh;
+}
+
+#lotusJumbotron {
+    width: 80%;
+  
+}
+/* Navbar/Jumbotron End */
+
+/* About Start */
+body {
+    color: #557571;
+    background-color: #F7D1BA;
+}
+
+.sectionTitles {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #557571;
+    font-family: p22-fllw-eaglefeather;
+    font-size: 36pt;
+}
+
+.aboutHeadline {
+    color: #557571;
+    font-family: p22-fllw-eaglefeather;
+}
+
+.aboutBlurb {
+    font-family: sans-serif;
+}
+/* About end */
+/* Skills Start */
+/* .skills { */
+    /* display: flex; */
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+/* } */
+
+.projectLabel {
+    font-family: sans-serif;
+}
+
+.skillsBadges {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#badges3 {
+    height: 100px;
+    width: 175px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#reactBadge {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#bootstrapBadge {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#githubLogo {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+/* Skills End */
+/* Projects Start */
+.completedProjects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#cssCat {
+    height: 100px;
+    width: 225px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* align-: baseline;   */
+}
+
+#hulu {
+    height: 100px;
+    width: 225px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#harryPotter {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+
+#blueBadge {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#redBadge {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/* Projects End */
+/* Contact Section */
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Contact End */
